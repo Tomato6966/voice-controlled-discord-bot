@@ -20,7 +20,7 @@ Currently it announces the songs via a MESSAGE, but I will change that ... (see 
 - `node-fetch@2` for api Calls
 - `discord.js@latest` as my Discord-Bot-Wrapper
 - `@discordjs/voice`, `@discordjs/opus`, `discord-ytdl-core`, `ytdl-core`, `youtube-sr`, `ffmpeg`, `libsodium-wrappers` for the Music System (Its similar to [my light-music-bot](https://github.com/Tomato6966/light-music-bot))
-- `ffmpeg`, `prism-media` for parsing / Piping / Transforming Audio Streams, -Buffers and -Files.
+- `ffmpeg`, `prism-media`, `node-crc` for parsing / Piping / Transforming Audio Streams, -Buffers and -Files.
 - `dotenv` for allowing to use .env ENVIRONMENT Variables
 
 
