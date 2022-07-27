@@ -15,6 +15,21 @@ It is a Music Bot, as other interactions are not that optimal.
 
 Currently it announces the songs via a MESSAGE, but I will change that ... (see todo)
 
+# System-Requirements
+- Idle Load: 17mb Ram
+- High Load: 25-30mb Ram
+- Highest Memory Load with HEAPS for 2 Days runtime: 97mb Ram
+- 1 CORE
+- Recommended: 250mb Ram
+- nodejs v16.10
+
+# How to use the Bot?
+- first join a vc
+- then type `!control` or `@Bot control`
+- then only you can control it by saying the commands you want to.
+- dont be too loud and not too quiet.
+- beeing loud is contraproductive and might result into worse results
+- reduce background noices, speak clear and fluently to be "recogniced" by the bot pretty well!
 
 # Resources
 - `node-fetch@2` for api Calls
