@@ -23,15 +23,18 @@ Currently it announces the songs via a MESSAGE, but I will change that ... (see 
 - `ffmpeg`, `prism-media`, `node-crc` for parsing / Piping / Transforming Audio Streams, -Buffers and -Files.
 - `dotenv` for allowing to use .env ENVIRONMENT Variables
 
+# Explanation and show off Video
+
+https://user-images.githubusercontent.com/68145571/181360241-7aec8ec2-3df0-4bbe-be5e-cd99ba743258.mp4
 
 # ToDo
 
 - Change Message Responses from the voice-command, to VOICE-RESPONSES (Bot speaks it)
   - Announce Songs: "Now playing XYZ"
   - also for Skip: "Skipping the current Track"
-- Make the structure better, and fix all bugs
-- Add all to a .env file, and create an example.env file
-- Adjust the Settings
-- Make it multi langual without any modules
-- Try to make it even faster ;)
+- ✅ (27/07/2022 18:23) Make the structure better, and fix all bugs
+- ✅ (27/07/2022 18:23) Add all to a .env file, and create an example.env file
+- ✅ (27/07/2022 18:23) Adjust the Settings
+- ✅ (27/07/2022 18:23) Make it multi langual without any modules
+- ✅ (27/07/2022 18:23) Try to make it even faster ;)
   
