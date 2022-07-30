@@ -32,6 +32,12 @@ Currently it announces the songs via a MESSAGE, but I will change that ... (see 
 - beeing loud is contraproductive and might result into worse results
 - reduce background noices, speak clear and fluently to be "recogniced" by the bot pretty well!
 
+# Self-Hosting
+- 1. Download the repo
+- 2. rename `example.env` to `.env` and fill out the variables (get wit.ai `Server Access Token` from [wit.ai](https://wit.ai))
+- 3. yarn install / npm install (make sure you have rust on your system)
+- 4. node index.js
+
 # Resources
 - `node-fetch@2` for api Calls
 - `discord.js@latest` as my Discord-Bot-Wrapper
