@@ -24,7 +24,7 @@ Currently it announces the songs via a MESSAGE, but I will change that ... (see 
 - nodejs v16.10
 
 # How to use the Bot?
-- *[Join the testing Server](https://discord.gg/TWRJH6ACvR) - Prefix: `v!`* / self-host it!
+- *[Join the testing Server](https://discord.gg/TWRJH6ACvR) - Prefix: `v!`* / [self-host it!](https://github.com/Tomato6966/voice-controlled-discord-bot/blob/main/README.md#self-hosting)
 - first join a vc
 - then type `!control` or `@Bot control`
 - then only you can control it by saying the commands you want to.
