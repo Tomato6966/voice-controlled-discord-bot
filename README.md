@@ -33,10 +33,14 @@ Currently it announces the songs via a MESSAGE, but I will change that ... (see 
 - reduce background noices, speak clear and fluently to be "recogniced" by the bot pretty well!
 
 # Self-Hosting
-- 1. Download the repo
-- 2. rename `example.env` to `.env` and fill out the variables (get wit.ai `Server Access Token` from [wit.ai](https://wit.ai))
-- 3. yarn install / npm install (make sure you have rust on your system)
-- 4. node index.js
+- Download the repo
+- rename `example.env` to `.env` and fill out the variables (get wit.ai `Server Access Token` from [wit.ai](https://wit.ai))
+- yarn install / npm install (make sure you have rust on your system)
+- node index.js
+
+## Want to add more music commands?
+
+Take a look at my Light-Music-Bot Project, which is similar to this one (for the music system) https://github.com/Tomato6966/light-music-bot
 
 # Resources
 - `node-fetch@2` for api Calls
