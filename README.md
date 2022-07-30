@@ -24,6 +24,7 @@ Currently it announces the songs via a MESSAGE, but I will change that ... (see 
 - nodejs v16.10
 
 # How to use the Bot?
+- *[Join the testing Server](https://discord.gg/TWRJH6ACvR) - Prefix: `v!`* / self-host it!
 - first join a vc
 - then type `!control` or `@Bot control`
 - then only you can control it by saying the commands you want to.
@@ -40,11 +41,11 @@ Currently it announces the songs via a MESSAGE, but I will change that ... (see 
 
 # Explanation and show off Video
 
-https://user-images.githubusercontent.com/68145571/181360241-7aec8ec2-3df0-4bbe-be5e-cd99ba743258.mp4
+https://user-images.githubusercontent.com/68145571/181937812-b8602b54-5f68-48cf-b85d-c076092b606a.mp4
 
-# ToDo
+# ~~ToDo~~
 
-- Change Message Responses from the voice-command, to VOICE-RESPONSES (Bot speaks it)
+- ✅ (28/07/2022 20:17) Change Message Responses from the voice-command, to VOICE-RESPONSES (Bot speaks it)
   - Announce Songs: "Now playing XYZ"
   - also for Skip: "Skipping the current Track"
 - ✅ (27/07/2022 18:23) Make the structure better, and fix all bugs
