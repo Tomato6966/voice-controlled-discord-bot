@@ -6,7 +6,7 @@ module.exports = {
     Status,
     Color,
     settings: {
-        listeningCooldown: 7_500,
+        listeningCooldown: 3_500,
         prefixCommands: [ "control", "language", "prefix" ],
         leaveEmptyVC: 60_000,
         validVoiceKeyWords: ["bot","client","voice", `speech`, `beach`, `each`, `peach`]
