@@ -3,6 +3,7 @@
 This repository is for the 5th Hackathon of Documatic.
 With that Project I am aiming to place `#1` and win 50€
 
+![standard](https://user-images.githubusercontent.com/68145571/182661071-e1a7a441-05b4-41a7-a760-77dc6c28aca4.gif)
 
 # About
 
