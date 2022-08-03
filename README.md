@@ -3,9 +3,8 @@
 This repository is for the 5th Hackathon of Documatic.
 With that Project I am aiming to place `#1` and win 50€
 
-<center>
-  <img src="https://imgur.com/ZCuO0KT.gif" />  
-</center>
+<img src="https://imgur.com/ZCuO0KT.gif" / style="display: block;margin-left: auto;margin-right: auto;width:100%;">  
+
 
 # About
 
