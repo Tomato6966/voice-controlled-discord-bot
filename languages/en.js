@@ -14,7 +14,18 @@ module.exports = {
     MISSING_PERMS: (permString) => `${Emojis.denied.str} **I'm missing the Permission to "${permString}" in your Voice-Channel!**`,
 
     COULD_NOT_JOIN: (channelId) => `${Emojis.cross.str} **I could not connect to ${parseChannelMention(channelId)}.**`,
-
+    HELP: (prefix) => {
+        return newLiner(
+            `${Emojis.check.str} **HELP | ABOUT ME!**`,
+            `> **My Prefix is: \`${prefix}\`**`,
+            `*I'm a voice-controlled-music-bot with high quality and many features!*`,
+            `> To get started, simply type \`${prefix}control\` in the Chat`,
+            `> It will tell you what to do, but **simply said**:`,
+            `> Just say the commands you want to do!`,
+            `**PLEASE MIND:** Before each command, you must add a Keyword! Valid ones are:`,
+            `> \`bot\` / \`voice\` / \`speech\` / \`client\``,
+        )
+    },
     CONTROLLING: (possibleCommands) => {
         return newLiner(
             `${Emojis.check.str} **You are now controlling the Bot!**`,

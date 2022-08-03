@@ -14,7 +14,18 @@ module.exports = {
     MISSING_PERMS: (permString) => `${Emojis.denied.str} **Il me manque l'autorisation de "${permString}" dans votre canal vocal!**`,
 
     COULD_NOT_JOIN: (channelId) => `${Emojis.cross.str} **Je n'ai pas pu me connecter à ${parseChannelMention(channelId)}.**`,
-
+    HELP: (prefix) => {
+        return newLiner(
+            `${Emojis.check.str} **AIDE | À PROPOS DE MOI!**`,
+            `> **Mon préfixe est : \`${prefix}\`**`,
+            `*Je suis un robot musical à commande vocale avec une haute qualité et de nombreuses fonctionnalités!*`,
+            `> Pour commencer, tapez simplement \`${prefix}control\` dans le chat`,
+            `> Il vous dira quoi faire, mais **a simplement dit**:`,
+            `> Dites simplement les commandes que vous voulez faire!`,
+            `**ATTENTION:** Avant chaque commande, vous devez ajouter un mot-clé! Les valides sont :`,
+            `> \`bot\` / \`voice\` / \`speech\` / \`client\``,
+        )
+    },
     CONTROLLING: (possibleCommands) => {
         return newLiner(
             `${Emojis.check.str} **Vous contrôlez maintenant le Bot!**`,

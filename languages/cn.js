@@ -14,7 +14,18 @@ module.exports = {
     MISSING_PERMS: (permString) => `${Emojis.denied.str} **我在您的语音频道中缺少 “${permString}” 的权限！**`,
 
     COULD_NOT_JOIN: (channelId) => `${Emojis.cross.str} **我无法连接到 ${parseChannelMention(channelId)}。**`,
-
+    HELP: (prefix) => {
+        return newLiner(
+            `${Emojis.check.str} **帮助 | 关于我！**`,
+            `> **我的前缀是： \`${prefix}\`**`,
+            `*我是一个具有高品质和许多功能的语音控制音乐机器人！*`,
+            `> 要开始，只需在聊天中输入 \`${prefix}control\``,
+            `> 它会告诉你该怎么做，但**简单地说**:`,
+            `> 只需说出您想要执行的命令！`,
+            `**请注意：** 在每个命令之前，您必须添加一个关键字！ 有效的是：`,
+            `> \`bot\` / \`voice\` / \`speech\` / \`client\``,
+        )
+    },
     CONTROLLING: (possibleCommands) => {
         return newLiner(
             `${Emojis.check.str} **您现在正在控制机器人！**`,
