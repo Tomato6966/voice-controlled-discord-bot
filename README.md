@@ -15,6 +15,8 @@ That means it might sometimes not return what you say... but I tested it over 19
 
 It is a Music Bot, as other interactions are not that optimal, like kick / ban, you can't control that with voice 100% sure...
 
+[Check out the **Show-off and Tutorial Video**](https://github.com/Tomato6966/voice-controlled-discord-bot/blob/main/README.md#explanation-and-show-off-video)
+
 ![image](https://user-images.githubusercontent.com/68145571/182658779-1638aed0-10e3-4c23-b95d-1f7e36d8fc82.png)
 
 # System-Requirements
