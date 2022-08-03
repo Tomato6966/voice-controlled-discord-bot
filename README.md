@@ -11,9 +11,9 @@ It is a voice controlled Discord Bot, means you (mainly) do not use prefix / Sla
 Ofc. you somehow need to parse that audio, for that I am using https://wit.ai which is a free speech-to-text ai, which you need to train!
 That means it might sometimes not return what you say... but I tested it over 19 months on another Project, and there it works 100% everytime, even multilangual now..
 
-It is a Music Bot, as other interactions are not that optimal.
+It is a Music Bot, as other interactions are not that optimal, like kick / ban, you can't control that with voice 100% sure...
 
-Currently it announces the songs via a MESSAGE, but I will change that ... (see todo)
+![image](https://user-images.githubusercontent.com/68145571/182658779-1638aed0-10e3-4c23-b95d-1f7e36d8fc82.png)
 
 # System-Requirements
 - Idle Load: 17mb Ram
