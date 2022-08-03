@@ -25,7 +25,7 @@ Currently it announces the songs via a MESSAGE, but I will change that ... (see 
 
 ![image](https://user-images.githubusercontent.com/68145571/182658298-f079f132-29ad-4259-8328-d9c1ebfad280.png)
 
-# How to use the Bot?
+# How to use the Bot? | [Check the Video](https://github.com/Tomato6966/voice-controlled-discord-bot#explanation-and-show-off-video)
 - *[Join the testing Server](https://discord.gg/TWRJH6ACvR) - Prefix: `v!`* / [self-host it!](https://github.com/Tomato6966/voice-controlled-discord-bot/blob/main/README.md#self-hosting)
 - first join a vc
 - then type `!control` or `@Bot control`
