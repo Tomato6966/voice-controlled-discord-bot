@@ -355,15 +355,19 @@ const sendQueueUpdate = async (client, guildId) => {
     const song = queue.tracks[0];
     const embed = new EmbedBuilder().setColor(Color.Main)
         .setURL(getYTLink(song.id))
-        .setTitle(`▶️ Now playing __${song.name}__`)
+        .setTitle(`▶️ Now playing __${song.title}__`)
         .setFields([
             {
-                name: `**Duration:**`, 
-                value: `> \`${song.durationFormatted}\``, inline: true
+                name: `**Duration:**`, inline: true, 
+                value: `> \`${song.durationFormatted}\``,
             },
             {
-                name: `**Requester:**`, 
-                value: `> ${song.requester} \`${song.requester.tag}\``, inline: true
+                name: `**Requester:**`, inline: true,
+                value: `> ${song.requester} \`${song.requester.tag}\``
+            },
+            {
+                name: `**Artist:**`, inline: true,
+                value: `> ${song.channel?.name ? `[${song.channel.name}](${song.channel.url})` : `\`Unknown\``}`
             }
         ]);
     if(song?.thumbnail?.url) embed.setThumbnail(`${song?.thumbnail?.url}`);
