@@ -22,7 +22,7 @@ module.exports = {
             `> ${possibleCommands}`,
             `__如何执行命令？__`,
             `> *说出它，说出一个关键字，然后说出命令和查询！ （用英语讲）*`,
-            `> 示例：\`\`\`机器人播放你的造型\`\`\``,
+            `> 示例：\`\`\`bot play shape of you\nbot skip\nbot stop\nbot nightcore\nbot play no diggity\nbot play believer\`\`\``,
             `>>> 不要停顿:`,
             `-) 不要停顿`,
             `-) 无背景噪音`,

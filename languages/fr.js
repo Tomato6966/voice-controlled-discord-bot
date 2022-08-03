@@ -22,7 +22,7 @@ module.exports = {
             `> ${possibleCommands}`,
             `__Comment exécuter une commande?__`,
             `> *Dites-le en prononçant un mot-clé, puis la commande et la requête! (En anglais)*`,
-            `> Exemple: \`\`\`bot play shape of you\`\`\``,
+            `> Exemple: \`\`\`bot play shape of you\nbot skip\nbot stop\nbot nightcore\nbot play no diggity\nbot play believer\`\`\``,
             `>>> Conseils pour être compris:`,
             `-) Ne faites pas de pause`,
             `-) Pas de bruit de fond`,

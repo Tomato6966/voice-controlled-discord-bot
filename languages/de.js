@@ -21,7 +21,7 @@ module.exports = {
             `> ${possibleCommands}`,
             `__Wie führst du einen aus?__`,
             `> *Sag es einfach, sprich ein KEYWORD (voice, speech) und danach den BEFEHL mit deiner Anfrage aus! (in English)*`,
-            `> Zum Beispiel: \`\`\`bot play shape of you\`\`\``,
+            `> Zum Beispiel: \`\`\`bot play shape of you\nbot skip\nbot stop\nbot nightcore\nbot play no diggity\nbot play believer\`\`\``,
             `>>> Tipps, dass ich dich besser verstehe:`,
             `-) Mach keine Sprechpausen`,
             `-) Minimiere Hintergrundgeräusche`,
