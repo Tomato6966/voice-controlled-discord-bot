@@ -23,6 +23,8 @@ Currently it announces the songs via a MESSAGE, but I will change that ... (see 
 - Recommended: 250mb Ram
 - nodejs v16.10
 
+![image](https://user-images.githubusercontent.com/68145571/182658298-f079f132-29ad-4259-8328-d9c1ebfad280.png)
+
 # How to use the Bot?
 - *[Join the testing Server](https://discord.gg/TWRJH6ACvR) - Prefix: `v!`* / [self-host it!](https://github.com/Tomato6966/voice-controlled-discord-bot/blob/main/README.md#self-hosting)
 - first join a vc
@@ -64,3 +66,5 @@ https://user-images.githubusercontent.com/68145571/181937812-b8602b54-5f68-48cf-
 - ✅ (27/07/2022 18:23) Make it multi langual without any modules
 - ✅ (27/07/2022 18:23) Try to make it even faster ;)
   
+  
+
