@@ -35,7 +35,7 @@ It is a Music Bot, as other interactions are not that optimal, like kick / ban, 
 
 >![image](https://user-images.githubusercontent.com/68145571/182658298-f079f132-29ad-4259-8328-d9c1ebfad280.png)
 
-# How to use the Bot? | [Check the Video](https://github.com/Tomato6966/voice-controlled-discord-bot#explanation-and-show-off-video)
+# How to use the Bot? | [Check the Video](https://github.com/Tomato6966/voice-controlled-discord-bot/blob/main/README.md#explanation-and-show-off-video)
  0. *[Join the testing Server](https://discord.gg/TWRJH6ACvR) - Prefix: `v!`* / [self-host it!](https://github.com/Tomato6966/voice-controlled-discord-bot/blob/main/README.md#self-hosting)
  1. Join a Discord Voice-Channel, *in a Server, where the Bot is in!*
  2. Type in a Text-Channel `v!control` or `@Bot control`
